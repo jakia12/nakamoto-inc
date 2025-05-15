@@ -161,6 +161,7 @@ img.ban_txt {
   top: -9px;
   border: 2px solid #fff;
   border-radius: 4px;
+  z-index: -1;
 }
 .about {
   padding: 90px 0 140px;
@@ -341,7 +342,7 @@ button.exp_btn {
   position: relative;
   background-color: #f2b92b;
   outline: none;
-  border: navajo#f2b92b;
+  border: #f2b92b;
 }
 button.exp_btn::before {
   content: "";
